@@ -37,7 +37,7 @@ class MSUnlike(UnlikeSellRequest):
 
     def build_uploader(self):
         # upload sheet templates
-        ms_upload_template_sheet = 'unlike_workbench_app/MS_upload_blank.csv'
+        ms_upload_template_sheet = 'MS_upload_blank.csv'
         ms_upload_df = pd.read_csv(ms_upload_template_sheet)
         ms_holdings_cusips_df = pd.read_excel(self.holdings, header=7)
         ms_holdings_full_info_df = pd.read_excel(self.holdings, header=None, nrows=6)
