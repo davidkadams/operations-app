@@ -15,7 +15,7 @@ st.set_page_config(layout='centered',initial_sidebar_state='expanded')
 
 c0_0,c0_1 = st.columns([1,2])
 with c0_0:
-    st.image('unlike_workbench_app/parametric-portfolio-associates-logo-vector.png',use_container_width=True)
+    st.image('parametric-portfolio-associates-logo-vector.png',use_container_width=True)
 
 # TITLE
 #st.title("Unlike Workbench Application")
