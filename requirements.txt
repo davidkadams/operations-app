@@ -3,7 +3,7 @@ streamlit==1.41.1
 pypdf2==3.0.1
 openpyxl==3.1.5
 pytz==2022.1
-pandas-market-calendars-4.6.0
+pandas-market-calendars==4.6.0
 
 
 
