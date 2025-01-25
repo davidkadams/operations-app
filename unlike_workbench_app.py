@@ -108,7 +108,7 @@ unlike_number = st.sidebar.text_input("## Unlike Number ")
 
 st.sidebar.markdown('''
 ---
-*v1.0*''')
+*v1.1*''')
 
 ########################################################
 # PAGE / LOGIC
